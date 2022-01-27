@@ -1,0 +1,31 @@
+.card {
+  margin: 1rem 0;
+  padding: 1rem;
+  display: table;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  background-color: #c2e7f0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.details {
+  margin-top: 1.2rem;
+  line-height: 2rem;
+}
+
+.footer {
+  margin: 2rem 0 1rem 0;
+}
+
+.delete {
+  background-color: rgb(169, 0, 0);
+  border-color: rgb(169, 0, 0);
+  margin-left: 1rem;
+}
+
+.delete:hover,
+.delete:active {
+  background-color: red;
+  border-color: red;
+}
